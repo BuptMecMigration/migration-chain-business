@@ -1,0 +1,5 @@
+2019-11-29 17:44:53,826 - /Users/lblade/migration/migration-main-business/common/utils/logger_utils.py[line:42] - DEBUG: debug
+2019-11-29 17:44:53,826 - /Users/lblade/migration/migration-main-business/common/utils/logger_utils.py[line:43] - INFO: info
+2019-11-29 17:44:53,826 - /Users/lblade/migration/migration-main-business/common/utils/logger_utils.py[line:44] - WARNING: 警告
+2019-11-29 17:44:53,826 - /Users/lblade/migration/migration-main-business/common/utils/logger_utils.py[line:45] - ERROR: 报错
+2019-11-29 17:44:53,826 - /Users/lblade/migration/migration-main-business/common/utils/logger_utils.py[line:46] - CRITICAL: 严重
