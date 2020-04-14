@@ -73,6 +73,38 @@ def test_business_func4():
     return data_str
 
 
+# 文件服务器上传接口1
+@test_interface.route('/file_server_1', methods=['POST'])
+def test_file_server1():
+    data = request.get_json()
+    data_file = data.get("process_file")
+    return data_file
+
+
+# 文件服务器上传接口2
+@test_interface.route('/file_server_2', methods=['POST'])
+def test_file_server1():
+    data = request.get_json()
+    data_file = data.get("process_file")
+    return data_file
+
+
+# 文件服务器上传接口3
+@test_interface.route('/file_server_3', methods=['POST'])
+def test_file_server1():
+    data = request.get_json()
+    data_file = data.get("process_file")
+    return data_file
+
+
+# 文件服务器上传接口4
+@test_interface.route('/file_server_4', methods=['POST'])
+def test_file_server1():
+    data = request.get_json()
+    data_file = data.get("process_file")
+    return data_file
+
+
 # get_result_function
 @test_interface.route('/test_tcp_receiver', methods=['POST'])
 def get_function():
