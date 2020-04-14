@@ -83,7 +83,7 @@ def test_file_server1():
 
 # 文件服务器上传接口2
 @test_interface.route('/file_server_2', methods=['POST'])
-def test_file_server1():
+def test_file_server2():
     data = request.get_json()
     data_file = data.get("process_file")
     return data_file
@@ -91,7 +91,7 @@ def test_file_server1():
 
 # 文件服务器上传接口3
 @test_interface.route('/file_server_3', methods=['POST'])
-def test_file_server1():
+def test_file_server3():
     data = request.get_json()
     data_file = data.get("process_file")
     return data_file
@@ -99,7 +99,7 @@ def test_file_server1():
 
 # 文件服务器上传接口4
 @test_interface.route('/file_server_4', methods=['POST'])
-def test_file_server1():
+def test_file_server4():
     data = request.get_json()
     data_file = data.get("process_file")
     return data_file
